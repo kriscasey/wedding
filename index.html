@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kris & John | Find Your Table</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+    <div class="header">
+
+      <div class="welcome">
+        Welcome to <br>our Wedding
+      </div>
+
+      <div class="names">
+        <div class="name">
+          <span class="initial">K</span>ris
+        </div>
+
+        <div class="amp">&</div>
+
+        <div class="name">
+          <span class="initial">J</span>ohn
+        </div>
+      </div>
+
+      <div class="date">04 • 24 • 2026</div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- FIND YOUR TABLE -->
+    <div class="search-card">
+
+      <div class="title">FIND YOUR TABLE</div>
+
+      <input 
+        type="text"
+        id="nameInput"
+        placeholder="Start typing your name..."
+        oninput="findTable()"
+      >
+
+      <div id="results"></div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- PHOTO SHARING SECTION -->
+    <div class="photo-card">
+
+      <div class="title">SHARE YOUR PHOTOS</div>
+
+      <p class="photo-text">
+        We’d love to see your favorite moments from the night.
+      </p>
+
+      <a 
+        href="https://photos.app.goo.gl/K86XxrJGaYVnDwbXA"
+        target="_blank"
+        class="photo-button"
+      >
+        Upload to Our Shared Album
+      </a>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

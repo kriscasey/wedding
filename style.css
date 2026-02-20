@@ -1,0 +1,192 @@
+/* ===== Global Box Model Fix ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===== Custom Font ===== */
+@font-face {
+  font-family: 'Archane';
+  src: url('archane-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ===== Base ===== */
+body {
+  margin: 0;
+  background-color: #0F3F37;
+  color: #D8C3A5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Layout ===== */
+.wrapper {
+  text-align: center;
+  padding: 120px 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* ===== Header Section ===== */
+.header {
+  font-family: 'Archane', serif;
+}
+
+.welcome {
+  font-size: 24px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  opacity: 0.95;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* KRIS */
+.name:first-child {
+  font-size: 80px;
+  line-height: 1;
+  position: relative;
+  left: -40px;
+}
+
+/* JOHN */
+.name:last-child {
+  font-size: 80px;
+  line-height: 1;
+  position: relative;
+  left: 60px;
+}
+
+/* Drop Caps */
+.initial {
+  font-size: 160px;
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  top: 20px;
+}
+
+.amp {
+  font-size: 55px;
+  margin: 10px 0;
+}
+
+.date {
+  font-size: 20px;
+  letter-spacing: 5px;
+  opacity: 0.9;
+}
+
+/* ===== Divider (Balanced Spacing) ===== */
+.divider {
+  height: 1px;
+  width: 80px;
+  margin: 80px auto;
+  background-color: rgba(216,195,165,0.6);
+}
+
+/* ===== Cards ===== */
+.search-card,
+.photo-card {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(216,195,165,0.3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Titles ===== */
+.title {
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+/* ===== Input ===== */
+input {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid rgba(216,195,165,0.4);
+  border-radius: 10px;
+  background: transparent;
+  color: #D8C3A5;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+  color: rgba(216,195,165,0.5);
+}
+
+input:focus {
+  border-color: #D8C3A5;
+}
+
+/* ===== Results ===== */
+.result-card {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(216,195,165,0.4);
+  background: rgba(255,255,255,0.03);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-number {
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* ===== Photo Section ===== */
+.photo-text {
+  margin-bottom: 25px;
+  color: rgba(216,195,165,0.8);
+  font-size: 15px;
+}
+
+.photo-button {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 30px;
+  border: 1px solid #D8C3A5;
+  color: #D8C3A5;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.25s ease;
+}
+
+.photo-button:hover {
+  background-color: #D8C3A5;
+  color: #0F3F37;
+}
+
+/* ===== Mobile Adjustment ===== */
+@media (max-width: 600px) {
+  .name:first-child,
+  .name:last-child {
+    left: 0;
+  }
+
+  .initial {
+    font-size: 120px;
+    top: 15px;
+  }
+
+  .wrapper {
+    padding: 80px 20px;
+  }
+}
