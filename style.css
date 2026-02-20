@@ -16,8 +16,8 @@
 /* ===== Base ===== */
 body {
   margin: 0;
-  background-color: #0F3F37;
-  color: #D8C3A5;
+  background-color: #073533;
+  color: #C1AD91;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,6 @@ body {
 .initial {
   font-size: 160px;
   display: inline-block;
-  margin-right: 6px;
   position: relative;
   top: 20px;
 }
@@ -121,7 +120,7 @@ input {
   border: 1px solid rgba(216,195,165,0.4);
   border-radius: 10px;
   background: transparent;
-  color: #D8C3A5;
+  color: #C1AD91;
   outline: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -131,7 +130,7 @@ input::placeholder {
 }
 
 input:focus {
-  border-color: #D8C3A5;
+  border-color: #C1AD91;
 }
 
 /* ===== Results ===== */
@@ -161,8 +160,8 @@ input:focus {
   display: inline-block;
   padding: 14px 28px;
   border-radius: 30px;
-  border: 1px solid #D8C3A5;
-  color: #D8C3A5;
+  border: 1px solid #C1AD91;
+  color: #C1AD91;
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 1px;
@@ -170,7 +169,7 @@ input:focus {
 }
 
 .photo-button:hover {
-  background-color: #D8C3A5;
+  background-color: #C1AD91;
   color: #0F3F37;
 }
 
