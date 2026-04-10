@@ -5,7 +5,6 @@
   { "name": "Anthony Pariante", "table": 1 },
   { "name": "Ashley Smith", "table": 1 },
   { "name": "Danielle Venezia", "table": 1 },
-  { "name": "Elise Turley", "table": 1 },
   { "name": "Ian Baird", "table": 1 },
   { "name": "Joe Fitzsimons", "table": 1 },
   { "name": "Kevin Romero", "table": 1 },
@@ -99,6 +98,7 @@
   { "name": "Michael Sin", "table": 9 },
   { "name": "Mitchell Caponi", "table": 9 },
   { "name": "Robyne Martinez", "table": 9 },
+  { "name": "Alex Wen", "table": 9 },
 
   { "name": "Cathy Clifford", "table": 10 },
   { "name": "Cathy Gallagher", "table": 10 },
@@ -134,7 +134,6 @@
   { "name": "Vincent Guerrizio", "table": 12 },
 
   { "name": "Aaron Wen", "table": 13 },
-  { "name": "Alex Wen", "table": 13 },
   { "name": "Anna Yeo", "table": 13 },
   { "name": "Brian Kwan", "table": 13 },
   { "name": "Chris Pham", "table": 13 },
@@ -147,6 +146,7 @@
   { "name": "Qin Chen", "table": 13 },
   { "name": "Ringo Lu", "table": 13 },
   { "name": "Wendy Wen", "table": 13 },
+  { "name": "Peng Wen", "table": 13 },
 
   { "name": "Dane Gasperini", "table": 14 },
   { "name": "Garret Glinka", "table": 14 },
@@ -165,7 +165,6 @@
   { "name": "Jackie Mcguckin", "table": 15 },
   { "name": "Jared Hannah", "table": 15 },
   { "name": "Joseph Squires", "table": 15 },
-  { "name": "Judy Vaz", "table": 15 },
   { "name": "Ronrico Rambon", "table": 15 },
   { "name": "Suzanne Squires", "table": 15 },
   { "name": "Tracy John", "table": 15 },
@@ -184,5 +183,7 @@
   { "name": "Johnny Gaspar", "table": 17 },
   { "name": "Karyn Lewis", "table": 17 },
   { "name": "Manny Gaspar", "table": 17 },
-  { "name": "Siddhartha Mukherhee", "table": 17 }
+  { "name": "Siddhartha Mukherhee", "table": 17 },
+  { "name": "Darryl Vaz", "table": 17 },
+  { "name": "Judy Vaz", "table": 17 }
 ]
